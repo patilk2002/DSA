@@ -29,7 +29,7 @@ public class Heapclass {
         pq.add(96);
         pq.add(98);
 
-        PriorityQueue<Student> pqc = new PriorityQueue<>();
+        PriorityQueue<Student> pqc = new PriorityQueue<>(Comparator.reverseOrder());
 
         pqc.add(new Student("kiran",11));
         pqc.add(new Student("patil",15));
